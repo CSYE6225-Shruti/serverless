@@ -37,8 +37,8 @@ jobs:
 
       - name: Copying artifact to S3
         run: |
-          aws s3 cp serverless/lambdafunction.zip s3://csye6225-shruti/
+          aws s3 cp serverless/lambdaFunctionCode.zip s3://csye6225-shruti/
 
       - name: Lambda Update
         run: |
-          aws lambda update-function-code --function-name LambdaFunction --s3-bucket csye6225-shruti --s3-key lambdafunction.zip
+          aws lambda update-function-code --function-name LambdaFunction --s3-bucket csye6225-shruti --s3-key lambdaFunctionCode.zip
