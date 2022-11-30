@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="serverless">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/serverless.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
