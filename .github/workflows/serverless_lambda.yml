@@ -1,10 +1,6 @@
 on:
   push:
-    branches:
-      - main
-      - assignment9
-  pull_request:
-    branches: [ main ]
+    branches: [main, assignment9]
 jobs:
   build-deploy:
     name: buildlambda
