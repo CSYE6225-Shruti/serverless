@@ -28,5 +28,5 @@ def send_account_verification_email(send_from, send_to, subject, receiver_name, 
         return response
 
     except Exception as e:
-        print("inside exception")
+        print("inside exception handling")
         print(e)
